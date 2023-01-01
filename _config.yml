@@ -21,7 +21,9 @@
 title: Kraus Dev House
 email: jason@krausdevhouse.com
 description: >- # this means to ignore newlines until "baseurl:"
-   Kraus Dev House offers strategic technical consulting to software companies. As an independent consultant, I provide a range of services, including technology roadmap development, architecture design, code review, project management, DevOps strategy, and cloud migration. My approach is holistic and considerate of the long-term goals and strategic positioning of your organization. I pride myself on being able to provide tailored solutions for my clients, and I am dedicated to staying up-to-date on the latest technologies and industry trends.
+   Kraus Dev House offers strategic technical consulting to software companies. As an independent consultant, I provide a range of services, including technology roadmap development, architecture design, code review, project management, visual strategic analysis. 
+   My approach is holistic and considerate of the long-term goals and strategic positioning of your organization. 
+   I pride myself on being able to provide tailored solutions for my clients, and I am dedicated to participating in the innovation of my field.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://krausdevhouse.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zbyte64
