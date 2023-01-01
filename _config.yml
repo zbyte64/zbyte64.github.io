@@ -27,6 +27,7 @@ url: "https://krausdevhouse.com" # the base hostname & protocol for your site, e
 twitter_username: zbyte64
 github_username:  zbyte64
 favicon: /favicon.ico
+accent_image: /sidebar_accent.png
 
 # Build settings
 # theme: jekyll-theme-hydejack
