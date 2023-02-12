@@ -1,0 +1,36 @@
+
+
+
+{
+  "pages": [
+    {
+      
+      
+      
+      "content": "\n\n\n  404\n\n  Page not found :(\n  The requested page could not be found.\n\n",
+      "url": "/404.html"
+    },{
+      
+      "title": "Kraus Dev House - Strategic Technical Consulting for Software Companies",
+      
+      "content": "Approach\n\nAs an independent consultant, I offer a range of strategic technical consulting services for software companies. \nMy approach is holistic and considerate of the long-term goals and the strategic positioning of your organization. \nI pride myself on being able to provide tailored solutions for my clients, and I am dedicated to participating in the innovation of my field.\n\nMy Services\n\n\n  Technology roadmap development\n  Architecture design and review\n  Code review and best practices guidance\n  Project management and agile methodologies\n  Visual strategic analysis\n\n\n\n\n\n\nCopyright © 2023 Kraus Dev House\n\n",
+      "url": "/about.html"
+    },{
+      
+      "title": "Resume",
+      "description": "A short description of the page for search engines (~150 characters long).\n",
+      "content": "Hello world\n",
+      "url": "/"
+    },{
+      
+      "title": "Resume",
+      "description": "A short description of the page for search engines (~150 characters long).\n",
+      "content": "Hello world\n",
+      "url": "/resume.html"
+    }
+  ], 
+  "documents": [
+    
+  ]
+}
+
