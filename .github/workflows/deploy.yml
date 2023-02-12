@@ -1,7 +1,9 @@
 name: Deploy website
 
 on:
-  push
+  push:
+    branches:
+        - main
 
 jobs:
   jekyll:
@@ -21,3 +23,4 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'gh-pages'
+        jekyll_src: '.'
