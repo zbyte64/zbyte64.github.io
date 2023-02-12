@@ -25,7 +25,7 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-gem "jekyll-theme-hydejack"
+gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
