@@ -35,6 +35,8 @@ logo: /Kraus_Dev_House_Logo_Color.png
 menu:
   - title: Resume
     url: /resume/
+  - title: About
+    url: /about/
 
 # Build settings
 theme: jekyll-theme-hydejack
