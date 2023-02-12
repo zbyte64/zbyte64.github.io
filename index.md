@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: welcome
 title: Kraus Dev House - Strategic Technical Consulting for Software Companies
+cover: true
 ---
 
 ### Approach

@@ -1,0 +1,210 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jason Kraus",
+    "label": "Senior Software Engineer at UrbanFootprint",
+    "image": "",
+    "email": "jason@krausdevhouse.com",
+    "phone": "",
+    "url": "",
+    "summary": "Software developer for 15 years with an emphasis on backend, fullstack, & devops.\n\nSpecialties: Python, Django, Web applications, Linux",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jasonkraus",
+        "url": "https://www.linkedin.com/in/jasonkraus/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "UrbanFootprint",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-04-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Maintained established Urban Planning application built in React & Python. Planned and executed efforts to ensure the continued longevity of the application: refactoring around separation of concerns, adopting industry standards to drive down defects, brought stability to the integration testing pipeline.\nDeveloped a greenfield GIS application for delivering data insights to various partners and customers, focusing much more on the presentation.",
+      "url": "https://www.linkedin.com/company/urbanfootprint/",
+      "location": "United States"
+    },
+    {
+      "name": "Shift3 Technologies",
+      "position": "Web Developer",
+      "startDate": "2016-12-31",
+      "endDate": "2021-01-31",
+      "highlights": [],
+      "summary": "Worked as a fullstack developer for a variety of clients while supporting ongoing devop efforts. Would meet with clients to discuss requirements. \nDeveloped ETL pipeline to digest telemetry and weather data backed by AWS Lambda & Athena.\nAutomated farm plotting routines in the browser.\nConsulted for developing a bioreactor controller.",
+      "url": "https://www.linkedin.com/company/bitwisetechnologyservices/",
+      "location": "Fresno, California Area"
+    },
+    {
+      "name": "Edit LLC",
+      "position": "Full-stack Developer",
+      "startDate": "2013-07-31",
+      "endDate": "2016-11-30",
+      "highlights": [],
+      "summary": "Developed a drag and drop website builder for small businesses. Operated as a static site generator backed by S3 & CloudFront.",
+      "url": ""
+    },
+    {
+      "name": "Cuker Interactive",
+      "position": "Web Developer",
+      "startDate": "2007-11-30",
+      "endDate": "2013-05-31",
+      "highlights": [],
+      "summary": "Engineered a flagship CMS & PCI compliant eCommerce product in Django. Integrated with various 3rd party services for shipping, payments and taxes. \nDeveloped course catalog service for uPro Golf device. \nDjango & jQuery developer for various branding sites.\n\nCrafted site deployment scripts for managing Django sites on an EC2 cluster.\n\nWeb development for various small to large Django sites ranging from brochure, media sharing and news aggregation.",
+      "url": "https://www.linkedin.com/company/cuker/"
+    },
+    {
+      "name": "Semdirector",
+      "position": "Quality Assurance Engineer",
+      "startDate": "2007-01-31",
+      "endDate": "2007-11-30",
+      "highlights": [],
+      "summary": "Developed and executed test cases for an SEO auditing web application. Operated with unclear requirements and worked with stakeholders to define acceptable criteria. Wrote a reporting validation system that performed it’s own OLAP computations for comparison.",
+      "url": "https://www.linkedin.com/company/semdirector/"
+    },
+    {
+      "name": "Quality Vectors",
+      "position": "Associate Quality Engineer",
+      "startDate": "2005-09-30",
+      "endDate": "2007-11-30",
+      "highlights": [],
+      "summary": "Wrote and executed manual tests for software driven devices. Developed a perl script to generate exhaustive tests for the Schlage Electronic Lock.",
+      "url": ""
+    },
+    {
+      "name": "Archspace.org",
+      "position": "Lead Developer",
+      "startDate": "2003-03-31",
+      "endDate": "2005-07-31",
+      "highlights": [],
+      "summary": "Deployed a web based game using C++, MySQL & Linux. Researched and implemented technologies relating to object persistence and game logic scripting.",
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "San Diego State University-California State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2007-12-31",
+      "endDate": "2009-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Geographic Information Systems (GIS)",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "GraphQL",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Perl",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Django",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "intermediate",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Per Nilsson",
+      "reference": "Jason is a full-stack engineer who cares deeply about the human factors behind code. From constructing Wardley maps to ensure we’re building the right thing, to applying software design patterns and developing team best practices, Jason is always inspiring the people around him to be better engineers, team members, and human beings."
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
