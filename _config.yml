@@ -36,7 +36,7 @@ menu:
   - title: Resume
     url: /resume/
   - title: About
-    url: /about/
+    url: /
 
 # Build settings
 theme: jekyll-theme-hydejack
