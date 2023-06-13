@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Empower Your Remote Software Teams with Expert Leadership from Within
+title: Empower Remote Software Teams to Thrive
 ---
 
 ### Approach
