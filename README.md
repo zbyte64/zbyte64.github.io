@@ -9,5 +9,5 @@ bundle exec jekyll serve
 
 # Decisions
 
-Use hydejack[https://hydejack.com/] theme for standard resume boilerplate
- 
+Use [hydejack](https://hydejack.com/) theme for standard resume boilerplate.
+Deployment uses Netlify because it has better gem support than github.
