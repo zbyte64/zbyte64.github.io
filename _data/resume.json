@@ -1,93 +1,88 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jason Kraus",
-    "label": "Senior Software Engineer at UrbanFootprint",
-    "image": "",
+    "label": "Full-stack Senior Software Engineer",
+    "picture": "",
     "email": "jason@krausdevhouse.com",
-    "phone": "",
-    "url": "https://krausdevhouse.com",
-    "summary": "Software developer for 15 years with an emphasis on backend, fullstack, & devops.\n\nSpecialties: Python, Django, React, Linux",
+    "website": "https://krausdevhouse.com",
+    "summary": "I am a wonky person when it comes to improving software development. Because I have been continuously learning for 18 years, I will bring a diverse set of tools that I hope will catch on like fire: Toyota Kata, Wardley Mapping, Event Storming, Non-Violent Communication, and more! These are tools that get to the core of what I believe is the ultimate challenge in software development: intentional communication. My philosophy is that development is a process of continuously setting expectations, often in response to unexpected outcomes. To succeed, we must not only provide psychological safety to encourage dissenting viewpoints, but also give others to tools and setting to explore those questions and ideas.",
     "location": {
+      "address": "",
+      "city": "Fresno",
       "countryCode": "US",
-      "address": "United States"
+      "region": "CA"
     },
     "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "jasonkraus",
-        "url": "https://www.linkedin.com/in/jasonkraus/"
-      }
-    ]
+          {
+            "network": "LinkedIn",
+            "username": "jasonkraus",
+            "url": "https://www.linkedin.com/in/jasonkraus/"
+          }
+        ]
+      
   },
   "work": [
     {
       "name": "UrbanFootprint",
       "position": "Senior Software Engineer",
-      "startDate": "2021-04-30",
-      "endDate": "",
+      "website": "https://www.linkedin.com/company/urbanfootprint/",
+      "startDate": "2021-04-01",
+      "summary": "Maintained a legacy urban planning GIS application with interactive maps & data products:\n\n * Architected data flow and model to eliminate the need to deploy for certain changes\n * Reduced total number of API requests by migrating data from key/value to RDBMS\n * Refactors resulting in bug fixes and 2 lines deleted for every 1 line changed\n * Adopted RTK over custom libraries to eliminate an integration step and simplify Redux implementations going forward\n * Reduced unit test execution time by 7 minutes by switching from Mocha to Vitest\n\nParticipated in the hiring process for engineering leadership and helped develop interview plans for engineers at various levels:\n * Responsible for creating the hands-on interview session for FE engineers\n * Responsible for leading the hands-on interview sessions for FE engineers and training junior staff as interviewers\n\nDeveloped a greenfield GIS application for delivering data insights stored in BigQuery to various partners and customers, focusing much more on presentation and performance:\n * Lead FE developer for a read-only geospatial mapping + dashboard application\n * Regularly presented project updates to the company including describing customer experience and business goals, reviewing milestones, and demonstrating engineering progress toward those milestones\n * Developed + implemented back end data model and FE logic (or end-to-end implementation of) charts and dashboards supporting time series and simple data summaries",
       "highlights": [],
-      "summary": "Maintained established Urban Planning application built in React & Python. Planned and executed efforts to ensure the continued longevity of the application: refactoring around separation of concerns, adopting industry standards to drive down defects, brought stability to the integration testing pipeline.\nDeveloped a greenfield GIS application for delivering data insights to various partners and customers, focusing much more on the presentation.",
-      "url": "https://www.linkedin.com/company/urbanfootprint/",
-      "location": "United States"
+      "endDate": "2024-02-01"
     },
     {
       "name": "Shift3 Technologies",
       "position": "Web Developer",
-      "startDate": "2016-12-31",
-      "endDate": "2021-01-31",
+      "website": "https://www.linkedin.com/company/bitwisetechnologyservices/",
+      "startDate": "2016-12-01",
+      "summary": "Worked as a fullstack developer while supporting ongoing devops efforts. Helped popularize Docker & Django at the workplace which would later become a standard option. Would meet with clients to storyboard and formulate requirements.   Projects covered a variety of sectors (Ag, Edtech, Social) and stacks:\n * Brought a business process to the cloud by porting a “desktop” PHP application to run on Elastic Beanstalk & Google Drive.\n * Developed a serverless GIS ETL pipeline to digest telemetry and weather data backed by AWS Lambda & Athena. Would forecast water demand for farmers.\n * Built a brandable public data portal for a non-profit using CKAN and Django-CMS\n * Made development safe again on a Point-in-time survey application developed in Meteor.js by implementing E2E testing and data validation.\n * Enabled farmers to plan their plotting from their phone using Turf.js & Leaflet.\n * Designed a cost-effective software stack for controlling an array of bioreactors\n * Researched & popularized DevOps knowledge that brought development environments closer to production with Docker & containers  Taught two classes open to the public: React & Web development with Python",
       "highlights": [],
-      "summary": "Worked as a fullstack developer for a variety of clients while supporting ongoing devop efforts. Would meet with clients to discuss requirements. \nDeveloped ETL pipeline to digest telemetry and weather data backed by AWS Lambda & Athena.\nAutomated farm plotting routines in the browser.\nConsulted for developing a bioreactor controller.",
-      "url": "https://www.linkedin.com/company/bitwisetechnologyservices/",
-      "location": "Fresno, California Area"
+      "endDate": "2021-01-01"
     },
     {
       "name": "Edit LLC",
       "position": "Full-stack Developer",
-      "startDate": "2013-07-31",
-      "endDate": "2016-11-30",
+      "startDate": "2013-07-01",
+      "summary": "Developed a drag and drop website builder for small businesses.\n * Removed downtime for deployments by making site hosting its own service\n * Optimized static site hosting for cost & speed with S3 & Cloudfront\n * Performant frontend by adopting Immutable & PubSub patterns at a time before Flux & Redux",
       "highlights": [],
-      "summary": "Developed a drag and drop website builder for small businesses. Operated as a static site generator backed by S3 & CloudFront.",
-      "url": ""
+      "endDate": "2016-11-01"
     },
     {
       "name": "Cuker Interactive",
       "position": "Web Developer",
-      "startDate": "2007-11-30",
-      "endDate": "2013-05-31",
+      "website": "https://www.linkedin.com/company/cuker/",
+      "startDate": "2007-11-01",
+      "summary": "Engineered a flagship CMS & PCI compliant eCommerce product in Django.\n * Never had a security incident even with millions of dollars in transactions\n * Searchable Catalog & Product pages were optimized for conversions first, SEO second\n * Platform enabled the agency to deliver strong branding with templates & assets\n * Built a client staff panel to control pages, products, coupons and order fulfillment \n * Developed dashboard for viewing sales & fulfillment performance\n * Developed integrations with various payment and shipping providers  Developed course catalog service for uPro Golf device with a companion desktop application that was served on the device itself.  Django & jQuery developer for various branding sites, notably DCShoes was done in 2 weeks.",
       "highlights": [],
-      "summary": "Engineered a flagship CMS & PCI compliant eCommerce product in Django. Integrated with various 3rd party services for shipping, payments and taxes. \nDeveloped course catalog service for uPro Golf device. \nDjango & jQuery developer for various branding sites.\n\nCrafted site deployment scripts for managing Django sites on an EC2 cluster.\n\nWeb development for various small to large Django sites ranging from brochure, media sharing and news aggregation.",
-      "url": "https://www.linkedin.com/company/cuker/"
+      "endDate": "2013-05-01"
     },
     {
       "name": "Semdirector",
       "position": "Quality Assurance Engineer",
-      "startDate": "2007-01-31",
-      "endDate": "2007-11-30",
+      "website": "https://www.linkedin.com/company/semdirector/",
+      "startDate": "2007-01-01",
+      "summary": "Developed and executed test cases for an SEO auditing web application. \n * Documented with exacting clarity the numbers reported by the system\n * Automated validation of numbers with parallel OLAP computations\n * Added statistical fuzz to validation process to allow for different implementations\n * SQL generated by the validation system were faster than production by ~30%",
       "highlights": [],
-      "summary": "Developed and executed test cases for an SEO auditing web application. Operated with unclear requirements and worked with stakeholders to define acceptable criteria. Wrote a reporting validation system that performed it’s own OLAP computations for comparison.",
-      "url": "https://www.linkedin.com/company/semdirector/"
+      "endDate": "2007-11-01"
     },
     {
       "name": "Quality Vectors",
       "position": "Associate Quality Engineer",
-      "startDate": "2005-09-30",
-      "endDate": "2007-11-30",
+      "startDate": "2005-09-01",
+      "summary": "Wrote and executed manual tests for software driven devices.\n * Developed a perl script to generate exhaustive tests for the Schlage Electronic Lock\n * Maintained aging work computers with inexpensive bulk parts from eBay\n * Eliminated locking issues with our CRM system written in Access by adding a MS SQL server as the backend.",
       "highlights": [],
-      "summary": "Wrote and executed manual tests for software driven devices. Developed a perl script to generate exhaustive tests for the Schlage Electronic Lock.",
-      "url": ""
+      "endDate": "2007-11-01"
     },
     {
       "name": "Archspace.org",
       "position": "Lead Developer",
-      "startDate": "2003-03-31",
-      "endDate": "2005-07-31",
-      "highlights": [],
+      "startDate": "2003-03-01",
       "summary": "Deployed a web based game using C++, MySQL & Linux. Researched and implemented technologies relating to object persistence and game logic scripting.",
-      "url": ""
+      "highlights": [],
+      "endDate": "2005-07-01"
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "San Diego State University-California State University",
@@ -99,10 +94,395 @@
       "courses": []
     }
   ],
-  "awards": [],
+      "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [
+    {
+      "name": "Node.js",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Software Infrastructure",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Django ",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Clojurescript",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Sentry",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Redux.js",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "NestJS",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Vue",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Angular",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Redis",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Serverless",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Integration (CI)",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Client Management",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Requirements Gathering",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Storyboarding",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Cloud-Native Architecture",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "ETL",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "E2E",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Application Development",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Blueprint",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Datadog",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "GIS Applications",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "System Architecture",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Team Training",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Unit Testing",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Optimization",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Data Migration",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Systems Integration",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Code Refactoring",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Interviewing",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Data Visualization",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "eChart",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "IT",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "OLAP",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Verification and Validation (V&V)",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "E-Commerce",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Extract, Transform, Load (ETL)",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Vue.js",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Meteor.js",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Requirements Engineering",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Docker Products",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "NoSQL",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Redux",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Mapbox",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Flask",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Google BigQuery",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "REST APIs",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Event Storming",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Kanban",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Heroku",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Front-end Engineering",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "SQL Database Administration",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "beginner",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "WebDriver",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Selenium",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "CSS Flexbox",
+      "level": "intermediate",
+      "keywords": []
+    },
     {
       "name": "Geographic Information Systems (GIS)",
       "level": "intermediate",
@@ -124,42 +504,22 @@
       "keywords": []
     },
     {
+      "name": "jQuery",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "expert",
+      "keywords": []
+    },
+    {
       "name": "JavaScript",
       "level": "expert",
       "keywords": []
     },
     {
-      "name": "Perl",
-      "level": "beginner",
-      "keywords": []
-    },
-    {
-      "name": "C++",
-      "level": "intermediate",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "intermediate",
-      "keywords": []
-    },
-    {
-      "name": "HTML",
-      "level": "expert",
-      "keywords": []
-    },
-    {
-      "name": "REST",
-      "level": "expert",
-      "keywords": []
-    },
-    {
-      "name": "Django",
-      "level": "expert",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
+      "name": "HTML 5",
       "level": "expert",
       "keywords": []
     },
@@ -169,12 +529,37 @@
       "keywords": []
     },
     {
+      "name": "REST",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "SEO",
+      "level": "expert",
+      "keywords": []
+    },
+    {
       "name": "CSS",
       "level": "expert",
       "keywords": []
     },
     {
-      "name": "jQuery",
+      "name": "XML",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Web Analytics",
+      "level": "expert",
+      "keywords": []
+    },
+    {
+      "name": "SEM",
       "level": "intermediate",
       "keywords": []
     },
@@ -200,6 +585,10 @@
     {
       "name": "Per Nilsson",
       "reference": "Jason is a full-stack engineer who cares deeply about the human factors behind code. From constructing Wardley maps to ensure we’re building the right thing, to applying software design patterns and developing team best practices, Jason is always inspiring the people around him to be better engineers, team members, and human beings."
+    },
+    {
+      "name": "Derek Payton",
+      "reference": "While LinkedIn only allows you to select one position for a recommendation, I've worked with Jason at three different companies – Cuker, Edit, and Shift3/Bitwise – and interacted with him in many tech community settings over the last 15 years.\n\nI have always found Jason to be an exceptional, thoughtful software developer. He cares greatly about the quality of his code while still being able to ship on time. He is the first person I think of when I hear the term \"software craftsmanship\".\n\nJason has always shown himself to be both eager to learn and happy to share his knowledge. I have learned much from him over the years, and I am a better developer for having worked with him. Any team he is on will benefit from his presence, and his teammates will be better software engineers as a result."
     }
   ],
   "projects": [],
