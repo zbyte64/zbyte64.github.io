@@ -26,7 +26,7 @@ work:
         * Implemented various experiment design workflows
         * Fully containerized existing deployment to make updates a more reliable process
         * Formalized OpenSchema API definitions with DRF-Spectacular which enabled:
-          - automating the typing in the Front End, reducing defect occurence in the code
+          - automating the typing in the Front End, reducing defect occurrence in the code
           - shipping API documentation to various labs for their own automation
         * Introduced principles around "barcode" creation, heading off a possible disaster in complexity
   - name: UrbanFootprint
